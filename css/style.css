@@ -1,0 +1,231 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Body */
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+/* Container */
+.container {
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+/* Header */
+.header {
+	width: 100%;
+	height: 75px;
+	background-color: #E39AA9;
+}
+.logo {
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 40px;
+    letter-spacing: 4px;
+    margin-right: auto;
+    padding-top: 15px;
+    font-size: 50px;
+    line-height: 40px;
+    font-family: 微软雅黑;
+    text-shadow:6px 3px 1px #BFBFBF
+}
+#focus{width:1500px;height:480px;overflow:hidden;position:relative;float: left;}
+#focus ul{height:480px;position:absolute;}
+#focus ul li{float:left;width:1500px;height:480px;overflow:hidden;position:relative;background:#000;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:1500px;height:40px;left:0;bottom:0;background:#000;}
+#focus .btn{position:absolute;width:1500px;height:10px;padding:16px 10px;right:0;bottom:0;text-align:right;}
+#focus .btn span{display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+#focus .btn span.on{background:#fff;}
+#focus .preNext{width:45px;height:100px;position:absolute;top:160px;cursor:pointer;}
+#focus .pre{left:0;background:url(../images/pre.jpg) no-repeat 0 0}
+#focus .next{right:0;background-position:right top;background:url(../images/next.jpg) no-repeat 0 0}
+.list{
+	width: 1500px;
+	height: 480px;
+	position: relative;
+	float: left;
+	margin-top: 50px;
+}
+.fang1{
+	background-color: #EFC6CE;
+	width:470px ;
+	height: 480px;
+	float: left;
+	border: 1px solid #BFBFBF;
+	box-shadow: 6px 6px 7px #aaaaaa;
+}
+.fang1 input{
+	float: left;
+	margin-left:50px;
+	margin-top: 40px;
+	text-align: center;
+	display: block;
+}
+.fang1 input:hover{
+	transform: translateY(-10px);
+}
+.fang2{
+	background-color: #EFC6CE;
+	width:470px ;
+	height: 480px;
+	float: left;
+	margin-left: 42px;
+	border: 1px solid #BFBFBF;
+	box-shadow: 6px 6px 7px #aaaaaa;
+}
+.fang2 a img{
+	float: left;
+	margin-left:50px;
+	margin-top: 30px;
+	text-align: center;
+	display: block;
+}
+.fang2 a img:hover{
+	transform: translateY(-10px);
+}
+.fang3{
+	background-color: #EFC6CE;
+	width:470px ;
+	height: 480px;
+	float: left;
+	margin-left: 42px;
+	border: 1px solid #BFBFBF;
+	box-shadow: 6px 6px 7px #aaaaaa;
+}
+.fang3 a img{
+	float: left;
+	margin-left:55px;
+	margin-top: 25px;
+	text-align: center;
+	display: block;
+}
+.fang3 a img:hover{
+	transform: translateY(-10px);
+}
+.biaoti{
+	background-color: #E39AA9;
+	width:470px ;
+	height: 60px;
+	float: left;
+	box-shadow: 6px 6px 7px #aaaaaa;
+}
+.biaoti span{
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 微软雅黑;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.foot{
+	background-color: #E39AA9;
+	width: 1500px;
+
+	position: relative;
+	float: left;
+
+}
+.foot span{
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 微软雅黑;
+    display: block;
+    margin-top: 10px;
+}
+.da{
+	width:1500px ;
+	height: 60px;
+	float: left;
+}
+.zhengwen{
+	float: left;
+	width:1500px ;
+	height: 60px;
+	display: block;
+}
+
+
+.goods{
+	width: 350px;
+	height: 360px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+	box-shadow: 6px 6px 7px #aaaaaa;
+}
+.goods_img{
+	height: 320px;
+}
+.dianji{
+	height: 40px;
+	width: 350px;
+	background-color: #E39AA9;
+	text-align: center;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	border-style:none
+}
+.dianji:hover{
+	color: gray;
+}
+.zhezhao{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tankuang{
+    position: relative;
+   
+    width: 50%;
+    height: 80%;
+    border-radius: 5px;
+    margin: 5% 28%;
+}
+#toubu{
+    height: 40px;
+}
+#toubu-right{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+    border:1px solid red
+}
+.view{
+	width: 1500px;
+	height: 500px;
+	background-color: #EFC6CE;
+	float: left;
+	margin-top: 50px;
+}
